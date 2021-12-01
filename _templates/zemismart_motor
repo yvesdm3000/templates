@@ -20,6 +20,8 @@ The motor is controlled and configured with the RF 433 MHz remote.
 The template given here is only for the wifi forwarder, which remote controls the RF remote.
 As the forwarder remote controls the RF 433 MHz remote (and not the motor), the forwarder does not have any information about the state (open, closed or intermediate) of the motor. Therefore it's _not_ possible to configure the forwarder with Tasmota's shutter support.
 
+WARNING: As of 2021-12-01 a newer version was found with a WBR3 chip which is not compatible with Tasmota.
+
 ## Flashing
 
 The wifi forwarder contains a [TYWE3S](http://tasmota.github.io/docs/Pinouts/#tywe3s3) module and can be flashed w/o problems by connecting the serial interface directly to the pins of the TYWE3S:
